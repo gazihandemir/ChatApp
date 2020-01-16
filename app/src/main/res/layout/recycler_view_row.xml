@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvRecViewAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elips"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Message"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+
+        />
+</FrameLayout>
